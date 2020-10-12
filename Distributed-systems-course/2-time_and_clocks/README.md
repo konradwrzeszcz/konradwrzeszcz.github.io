@@ -72,8 +72,8 @@ M1 przetworzyła n zdarzeń, czego wynikiem jest wartość x=5.
 ![alt_text](images/concurrent_events.png "image_tooltip")
 
 
-
-## [Partial order](https://en.wikipedia.org/wiki/Partially_ordered_set#:~:text=Formally%2C%20a%20partial%20order%20is,the%20end%20of%20the%20chain).)
+## Partial order
+[Co to jest partial order?](https://en.wikipedia.org/wiki/Partially_ordered_set#:~:text=Formally%2C%20a%20partial%20order%20is,the%20end%20of%20the%20chain)
 
 
 ![alt_text](images/partial_orders.png "image_tooltip")
