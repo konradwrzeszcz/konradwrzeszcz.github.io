@@ -1,5 +1,5 @@
 - Courses
-    - [Distributed systems](courses/distributed-systems-course/)
+    - [Distributed systems](courses/distributed_systems_course/)
 - Books
-    - [Functional Programming in C#](books/functional-programming-in-csharp/)
-    - [Rust book](books/rust-book/)
+    - [Functional Programming in C#](books/functional_programming_in_csharp/)
+    - [Rust book](books/rust_book/)

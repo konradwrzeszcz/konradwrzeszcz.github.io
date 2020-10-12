@@ -1,3 +1,0 @@
-- Distributed systems
-    - [Description](courses/distributed-systems-course/1-description/)
-    - [Time and clocks](courses/distributed-systems-course/2-time_and_clocks/)
