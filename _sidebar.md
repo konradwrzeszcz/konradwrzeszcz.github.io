@@ -1,2 +1,2 @@
-- Course
+- Courses
     - [Distributed systems](Distributed-systems-course/)
