@@ -56,7 +56,9 @@ Causality is a graph reachability in spacetime.
 Można powiedzieć, że zdarzenie A wydarzyło się przed zdarzeniem B, tylko jeżeli możemy połączyć ciągłą linia zdarzenie A i B.
 ```
 
-!> Lamport clocks nie opisują przyczynowości (causality) zdarzeń - które z dwóch zdarzeń wystąpiło pierwsze.
+!> Lamport clocks nie opisują przyczynowości (causality) zdarzeń. 
+</br>
+Przyczynowość zdarzeń - czy któreś ze zdarzeń wystąpiło przed drugim.
 
 #### Do czego można zastosować lamport clock
 
