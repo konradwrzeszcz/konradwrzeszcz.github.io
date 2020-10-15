@@ -24,12 +24,34 @@ Phisical clocks are not good to schedule the snapshot for whole system, because 
 
 ### Chandy-Lamport algorithm
 
+How to make a snapshot in distributed system.
+
 #### Channel - a connection between one process to another.
 
 Assumption: Channels act like FIFO queues.
 ![alt_text](images/channels.png "image_tooltip")
 
+#### Algorithm
 
+Initiator process
 
+1. Records its own state
+2. Sends a marker message out on all its outgoing channels
+3. Starts recording the messages it receives on all its incoming channels 
 
+Receiving marker message (when process Pi gets a marker message on channel Cki):
 
+1. If it's the first marker Pi has seen
+    - Pi records its state
+    - Pi marks channel Cki as empty
+    - Pi sends a marker out on every outgoing channels Cij
+    - Pi starts recording incoming messages on all its incoming channels except Cki
+2. It's not the first marker message
+    - Pi stops recording on channel Cki
+    - sets Cki channel final state as the sequence of all the incoming messages that arrived on Cki since recording began
+    
+![alt_text](images/chandy_lamport_algorithm.png "image_tooltip")
+
+#### Example
+
+![alt_text](images/example.png "image_tooltip")
