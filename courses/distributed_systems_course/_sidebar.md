@@ -4,4 +4,5 @@
     - [Logical clocks](courses/distributed_systems_course/3-logical_clocks/)
     - [Vector clocks](courses/distributed_systems_course/4-vector_clocks/)
     - [Delivery protocols](courses/distributed_systems_course/5-delivery_protocols/)
-    - [Delivery protocols 2](courses/distributed_systems_course/6-delivery_protocols_2/)
+    - [Delivery protocols 2](courses/distributed_systems_course/6-7-delivery_protocols_2/)
+    - [Delivery protocols 3](courses/distributed_systems_course/8-delivery_protocols_3/)
