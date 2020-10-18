@@ -43,7 +43,27 @@ Chandy-Lamport algorithm determines a consistent cut.
 
 ![alt_text](images/coordinator.png "image_tooltip")
 
-FIFO, Causal, Total order deliveries describe how algorithms should behave.
+## Algorithms properties
 
-1. Safety property - something bad won't happen. Protocol can be violated in a finite execution. FIFO, causal and total order deliveries are safety properties.
-2. Liveness property - something good eventually happens
+### Safety property
+
+Something bad never happens - can be violated in a finite execution (E.g. FIFO/Causal/Totaly ordered delivery)
+
+![alt_text](images/safety_property.png "image_tooltip")
+
+### Liveness property
+
+Something good eventually happens - cannot be violated in a finite execution (The system eventually response to client's request)
+E.g. Reliable delivery
+
+![alt_text](images/liveness_property.png "image_tooltip")
+
+```
+We need both properties in distributed system
+
+E.g. FIFO
+safty property: all messeges deliver in the right order
+liveness property: all messages are delivered (not ignored) 
+```
+
+![alt_text](images/fifo_example.png "image_tooltip")
