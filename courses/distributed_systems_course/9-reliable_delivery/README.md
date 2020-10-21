@@ -55,3 +55,19 @@ Alice and Bob must attack at the same time. So they must acknowledge receipt of 
 - everyone knows that everyone knows P
 - everyone knows that everyone knows... that everyone knows P
 2. You can increase generals' confidence about the attack if one of them will be sending a message in regular interval. The second one will send the acknowledge message and the first one will stop sending that message.
+
+## How to implement omission fault tolerant reliable delivery?
+
+Send messages until you will get an acknowledgement.
+
+### Idempnotency
+
+Function is idempotent if 
+```
+f(x) = f(f(x)) = f(f(f(x))) = ...
+```
+
+Idempotency should be a default option for asynchronous system.
+
+Reliable delivery is also called "at-least-once" delivery.
+
