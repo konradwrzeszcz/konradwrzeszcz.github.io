@@ -37,4 +37,5 @@ If a correct process delivers a broadcast message m, then all correct processes 
 
 ![alt_text](images/fault_tolerance.png "image_tooltip")
 
-**Fault tolerance often involves making copies**
+**Fault tolerance often involves making copies (e.g. copies of messages)**
+

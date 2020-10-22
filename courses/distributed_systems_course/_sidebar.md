@@ -8,4 +8,5 @@
     - [Delivery protocols 3](courses/distributed_systems_course/8-delivery_protocols_3/)
     - [Reliable delivery](courses/distributed_systems_course/9-reliable_delivery/)
     - [Reliable broadcast](courses/distributed_systems_course/10-reliable_broadcast/)
+    - [Consistency](courses/distributed_systems_course/11-consistency/)
 
