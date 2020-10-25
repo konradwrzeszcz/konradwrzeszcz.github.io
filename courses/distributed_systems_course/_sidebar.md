@@ -10,5 +10,5 @@
     - [Reliable broadcast](courses/distributed_systems_course/10-reliable_broadcast/)
     - [Consistency](courses/distributed_systems_course/11-consistency/)
     - [Replication](courses/distributed_systems_course/12-replication/)
-    - [Consensus](courses/distributed_systems_course/12-consensus/)
+    - [Consensus](courses/distributed_systems_course/13-consensus/)
 
