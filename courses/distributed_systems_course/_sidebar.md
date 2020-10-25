@@ -11,4 +11,5 @@
     - [Consistency](courses/distributed_systems_course/11-consistency/)
     - [Replication](courses/distributed_systems_course/12-replication/)
     - [Consensus](courses/distributed_systems_course/13-consensus/)
+    - [Paxos](courses/distributed_systems_course/14-paxos/)
 
