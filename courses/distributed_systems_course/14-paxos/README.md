@@ -41,7 +41,9 @@ When an accpetor gets Accept(n, val) message, it asks
 
 ![alt_text](images/multiple_proposers_2.png "image_tooltip")
 
+Termination problem in paxos
 
+![alt_text](images/paxos_termination_problem.png "image_tooltip")
 
 
 

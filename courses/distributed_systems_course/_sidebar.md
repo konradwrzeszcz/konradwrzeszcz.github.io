@@ -12,4 +12,5 @@
     - [Replication](courses/distributed_systems_course/12-replication/)
     - [Consensus](courses/distributed_systems_course/13-consensus/)
     - [Paxos](courses/distributed_systems_course/14-paxos/)
+    - [Consensus protocols](courses/distributed_systems_course/15-consensus_protocols/)
 
