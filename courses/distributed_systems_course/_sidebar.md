@@ -13,5 +13,6 @@
     - [Consensus](courses/distributed_systems_course/13-consensus/)
     - [Paxos](courses/distributed_systems_course/14-paxos/)
     - [Consensus protocols](courses/distributed_systems_course/15-consensus_protocols/)
-    - [Dynamo](courses/distributed_systems_course/16-dynamo/)
+    - [Dynamo](courses/distributed_systems_course/16-17-dynamo/)
+    - [Quorum consistency](courses/distributed_systems_course/18-quorum_consistency/)
 

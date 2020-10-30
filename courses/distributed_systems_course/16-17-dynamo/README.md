@@ -26,7 +26,7 @@ Clients have to decide what to do with all events (i.e. shopping card)
 
 ## Network partitions
 
-Problems with network
+Nodes in one part of a network can't reach nodes in another part (temporary and unintentional)
 
 1. Machines cannot communicate between groups
 2. Client can communicate with machines, but they cannot communicate with eachother
@@ -36,7 +36,7 @@ Problems with network
 
 ## Availability
 
-Perfect availability - every request receives a response
+Perfect availability - every request receives a meaningful response within some time limit
 
 ![alt_text](images/availability.png "image_tooltip")
 
@@ -47,4 +47,25 @@ CAP - strong Consistency, perfect Availability, Partition-tolerance
 
 You can't have all three
 ```
+
+## Anti-entropy
+- resolving confilcts in replica application state
+- replicas randomly contact other replicas at a regular interval to find out their state (key-value pairs)
+
+## Gossip
+- resolving conflicts in the view of membership (who is up and running)
+
+## How to minimize the cost of data transfer during replica synchronization?
+
+1. Merkle trees (hash trees)
+
+![alt_text](images/merkle_tree.png "image_tooltip")
+
+Example 
+
+Replicas send only hashes of roots. If they differ, replicas send hashes of child nodes until they find different states. Then replicas send only the states that differ.
+
+![alt_text](images/merkle_tree_example.png "image_tooltip")
+
+**Merkel trees are especially useful in the situation where you expect the replicas to be mostly caught up with one another**
 
