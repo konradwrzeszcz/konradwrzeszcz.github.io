@@ -69,3 +69,10 @@ Replicas send only hashes of roots. If they differ, replicas send hashes of chil
 
 **Merkel trees are especially useful in the situation where you expect the replicas to be mostly caught up with one another**
 
+
+## Quorum consistency
+
+![alt_text](images/quorum_consistency.png "image_tooltip")
+
+![alt_text](images/quorum_consistency_example.png "image_tooltip")
+
