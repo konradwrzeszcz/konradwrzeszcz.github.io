@@ -15,4 +15,5 @@
     - [Consensus protocols](courses/distributed_systems_course/15-consensus_protocols/)
     - [Dynamo](courses/distributed_systems_course/16-17-dynamo/)
     - [Sharding](courses/distributed_systems_course/18-sharding/)
+    - [MapReduce](courses/distributed_systems_course/19-mapreduce/)
 
