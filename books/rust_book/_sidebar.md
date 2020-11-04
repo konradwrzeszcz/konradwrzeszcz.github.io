@@ -1,2 +1,0 @@
-- Rust book
-    - [Section 1](books/rust_book/section-1/)
