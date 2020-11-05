@@ -17,4 +17,5 @@
     - [Sharding](courses/distributed_systems_course/18-sharding/)
     - [MapReduce](courses/distributed_systems_course/19-mapreduce/)
     - [MapReduce 2](courses/distributed_systems_course/20-mapreduce_2/)
+    - [Blockchain](courses/distributed_systems_course/21-blockchain/)
 
