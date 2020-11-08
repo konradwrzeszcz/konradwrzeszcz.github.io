@@ -19,4 +19,5 @@
     - [MapReduce 2](courses/distributed_systems_course/20-mapreduce_2/)
     - [Blockchain consensus](courses/distributed_systems_course/21-blockchain_consensus/)
     - [Upper bounds](courses/distributed_systems_course/22-upper_bounds/)
+    - [Great papers](courses/distributed_systems_course/23-great_papers/)
 
