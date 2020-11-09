@@ -20,4 +20,6 @@
     - [Blockchain consensus](courses/distributed_systems_course/21-blockchain_consensus/)
     - [Upper bounds](courses/distributed_systems_course/22-upper_bounds/)
     - [Great papers](courses/distributed_systems_course/23-great_papers/)
+    - [Peer to peer](courses/distributed_systems_course/24-peer_to_peer/)
+    - [Random topics](courses/distributed_systems_course/25-random_topics/)
 
