@@ -1,7 +1,9 @@
-Functional programming - internal lecture 12.02.2021
+# Functional programming - internal lecture 12.02.2021
 
-![alt_text](images/functional_programming.jpg "image_tooltip")
+Miro board: 
 
-Presentation
+https://miro.com/app/board/o9J_lczb9vg=/
+
+Presentation:
 
 https://prezi.com/view/TsbDlM6UkuOaEBAXvagu
