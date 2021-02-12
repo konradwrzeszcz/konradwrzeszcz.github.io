@@ -3,3 +3,6 @@
 - Books
     - [Functional Programming in C#](books/functional_programming_in_csharp/)
     - [Rust book](books/rust_book/)
+    - [Hands-On Domain-Driven Design](books/hands_on_domain_driven_design/)
+- Lectures
+    - [Functional programming](lectures/functional_programming/)
