@@ -6,3 +6,4 @@
     - [Hands-On Domain-Driven Design](books/hands_on_domain_driven_design/)
 - Lectures
     - [Functional programming](lectures/functional_programming/)
+    - [Co to ta funkcyjność i w czym mi może pomóc?](lectures/co_to_ta_funkcyjnosc/)
