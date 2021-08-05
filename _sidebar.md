@@ -8,7 +8,7 @@
     - [Functional programming](lectures/functional_programming/)
     - [Co to ta funkcyjność i w czym mi może pomóc?](lectures/co_to_ta_funkcyjnosc/)
 - Interviews
-    - [.NET](interviews/dotnet)
-    - [Programming](interviews/programming)
-    - [Architecture](interviews/architecture)
-    - [DevOps](interviews/devops)
+    - [.NET](interview/dotnet)
+    - [Programming](interview/programming)
+    - [Architecture](interview/architecture)
+    - [DevOps](interview/devops)
